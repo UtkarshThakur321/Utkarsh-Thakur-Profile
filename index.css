@@ -1,47 +1,49 @@
 body{
     width:100%;
     margin:0px;
-   
+    background-color:aqua
+
 }
 
 .intro{
-    
-    background-color:aquamarine;
-    color:white;
-    
-    
-    
+    color:brown;
+
 }
 
 #image{
     width:50%;
 }
 
-
+hr{
+    margin:0px;
+}
 
 #nav{
     height:50px;
-    background-color: bisque;
-    color:darkorange;
+    display:content;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
-}
+    color:black;}
+    /* text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
 
 #skills{
-    color:bisque;
-    background-color: black;
+    color:darkblue;
+    font-weight: 400;
+    
 }
 
 #projects{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: fuchsia;
-    
+    color:blue;
 }
 
 
-#footer{
+/* #footer{
     text-align: center;
-    
-    
+} */
+#copyright{
+    text-align: center;
+    color:deeppink
 }
