@@ -1,0 +1,88 @@
+body{
+    width:100%;
+    margin:0px;
+    
+
+}
+
+
+#intro{
+    background-image:url("./bg.jpg");
+}
+
+
+#profileImage>img{
+    margin-top: 2%;
+
+    height:240px;
+    width:20%;
+    border-radius: 130px;
+    box-shadow: 0px 0px 40px rgb(235, 253, 253);
+}
+#profileName{
+    color:beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#aboutMe{
+    width:70%;
+    height:200px;
+    border:2px solid green;
+    margin-left:15%;
+}
+
+
+#aboutMeHeading{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    font-weight: bold;
+}
+#aboutMeContent{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:16px;
+    
+}
+
+
+
+
+
+hr{
+    margin:0px;
+}
+
+#nav{
+    height:50px;
+    display:content;
+    text-align: center;
+    font-weight: 900;
+    color:black;}
+    /* text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+#skills{
+    color:darkblue;
+    font-weight: 400;
+    
+}
+
+.img{
+    height:10px;
+    width:10%;
+}
+#projects{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:blue;
+}
+
+
+/* #footer{
+    text-align: center;
+} */
+#copyright{
+    text-align: center;
+    color:deeppink
+}

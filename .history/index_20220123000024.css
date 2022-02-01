@@ -1,28 +1,24 @@
 body{
     width:100%;
     margin:0px;
-    /* background-color: rgb(171, 238, 238); */
-    background-image:url("./bg.jpg");
+    background-color: rgb(252, 242, 230);
+
 }
 
 
 #intro{
-    
+    /* background-image:url("./bg.jpg"); */
     background-color: rgb(190, 243, 243);
     height: 400px;
-    width:85%;
-    box-shadow: 0px 0px 40px rgb(245, 212, 159);
-    margin-bottom: 2%;
-
 }
 
 
 #profileImage>img{
     margin-top: 1%;
-    height:230px;
+    height:240px;
     width:20%;
-    border-radius: 180px;
-    box-shadow: 0px 0px 40px rgb(245, 212, 159);
+    border-radius: 130px;
+    box-shadow: 0px 0px 40px rgb(235, 253, 253);
 }
 #profileName{
     color:rgb(8, 8, 0);
@@ -34,24 +30,20 @@ body{
     height:200px;
     /* border:2px solid green; */
     margin-left:8%;
-    box-shadow: 0px 10px 20px rgb(245, 212, 159);
-    margin-bottom: 2%;
-    background-color: rgb(190, 243, 243);
+    box-shadow: 0px 10px 20px rgba(195, 247, 247, 0.911);
 }
-
 
 
 #aboutMeHeading{
     text-align:center;
-    font-family:cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:20px;
     font-weight: bold;
 }
 #aboutMeContent{
     
-    font-family:cursive;
-        font-size:16px;
-        margin:2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:16px;
     
 }
 
@@ -60,53 +52,44 @@ body{
         height:200px;
         /* border:2px solid green; */
         margin-left:8%;
-        box-shadow: 0px 10px 20px rgb(245, 212, 159);
-        font-family:cursive;   
-         
+        box-shadow: 0px 10px 20px rgba(195, 247, 247, 0.911);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:blue;
     text-align: center;
-    margin-bottom: 2%;
-    background-color: rgb(190, 243, 243);
     
 }
-.projectsContent{
-    border:2px solid red;
-    width:30%;
-    height:100px;
-    float:left;
-    margin-left:2%;
-}
-.projectsContent>span{
-    font-size: 18px;
-}
+
 
 
 #skills{
         width:85%;
-        height:350px;
+        height:200px;
         /* border:2px solid green; */
         margin-left:8%;
-        box-shadow: 0px 10px 20px rgb(245, 212, 159);
-        margin-bottom: 2%;
-        background-color: rgb(190, 243, 243);
+        box-shadow: 0px 10px 20px rgba(195, 247, 247, 0.911);
+        
 }
 
 #skills{
+    color:darkblue;
+    font-weight: 400;
     text-align: center;
     
 }
 .skillsContent{
-    height:80px;
-    margin:0% 2% 1%;
-    width:45%;
-    float:left;
-    /* border:2px solid blue; */
+    height:40px;
+    
+    border:2px solid blue;
+
 }
 .skillsContent>img{
-    height:80px;
-    width:20%;
+    height:40px;
+    width:10%;
 }
 
-
+hr{
+    margin:0px;
+}
 
 #nav{
     height:50px;
@@ -134,9 +117,10 @@ body{
 
 }
 
-
+/* #footer{
+    text-align: center;
+} */
 #copyright{
     text-align: center;
-    font-family:cursive;
     color:deeppink
 }

@@ -1,0 +1,59 @@
+body{
+    width:100%;
+    margin:0px;
+    background-color:aqua
+
+}
+#intro{
+    border:2px solid black;
+    margin-left: 10%;
+}
+
+#profileImage>img{
+    border-radius: 90px;
+    margin-left:35%;
+    
+}
+
+.intro{
+    color:brown;
+
+}
+
+#image{
+    width:50%;
+}
+
+hr{
+    margin:0px;
+}
+
+#nav{
+    height:50px;
+    display:content;
+    text-align: center;
+    font-weight: 900;
+    color:black;}
+    /* text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+#skills{
+    color:darkblue;
+    font-weight: 400;
+    
+}
+
+#projects{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:blue;
+}
+
+
+/* #footer{
+    text-align: center;
+} */
+#copyright{
+    text-align: center;
+    color:deeppink
+}

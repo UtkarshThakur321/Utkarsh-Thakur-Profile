@@ -134,7 +134,9 @@ body{
 
 }
 
-
+/* #footer{
+    text-align: center;
+} */
 #copyright{
     text-align: center;
     font-family:cursive;
